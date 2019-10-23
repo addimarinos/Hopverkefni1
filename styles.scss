@@ -1,4 +1,4 @@
-@import "scss/config";
+@import "scss/config.scss";
 
 * {
   padding: 0;
@@ -14,11 +14,22 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
+  font-size: 16px;
+  font-family: $font-text;
   // TODO fleiri grunn stillingar
+}
+
+main { /* stylelint-disable-line */
+  max-width: $max-width;
+  margin: $base-margin;
+}
+
+img { /* stylelint-disable-line */
+  max-width: 100%;
 }
 
 
 
 // TODO sækja allar sass skrár
-@import "scss/...";
+@import "scss/header.scss";
+@import "scss/footer.scss";

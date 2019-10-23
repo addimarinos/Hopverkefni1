@@ -1,0 +1,23 @@
+@import "config.scss";
+
+.header { /* stylelint-disable-line */
+    margin-bottom: $gutter *2;
+    background-color: $color-orange;
+
+    &_content {
+        display: flex;
+        flex-direction: column;
+        max-width: $max-width;
+        margin: $base-margin;
+
+    }
+
+    &_title {
+        margin-bottom: $gutter;
+        font-size: 3.75rem;
+        font-family: $font-header;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}
