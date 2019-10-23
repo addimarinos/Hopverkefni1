@@ -1,0 +1,94 @@
+@import "config.scss";
+
+.nav { /* stylelint-disable-line */
+    margin-bottom: $gutter;
+
+    &_row {
+        display: flex;
+        margin-right: -($gutter / 2);
+        margin-left: -($gutter / 2);
+        flex-wrap: wrap;
+    }
+
+    &_list {
+        width: 100%;
+        padding-right: $gutter /2;
+        padding-left: $gutter /2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: $gutter;
+        
+        @media(min-width: 800px) {
+            width: 50%;
+            padding-right: $gutter /2;
+            padding-left: $gutter /2;
+
+            margin-left: 25%;
+            margin-bottom: 0;
+
+        } 
+    }
+
+    &_item {
+        display: flex;
+
+        margin-right: $gutter * 0.5;
+        margin-left: $gutter * 0.5;
+
+        font-size: 1rem;
+    }
+    
+    &_active {
+        text-decoration: underline;
+    }
+
+    &_page {
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-black;
+        transition: color $trans;
+        letter-spacing: 0.2em;
+        &:hover {
+            color: $color-white;
+        } 
+    }
+    &_cart {
+        width: 100%;
+        padding-right: $gutter /2;
+        padding-left: $gutter /2;
+        display: flex;
+        justify-content: center;
+        
+        @media(min-width: 800px) {
+            width: (2/12)*100 *1%;
+            padding-right: $gutter /2;
+            padding-left: $gutter /2;
+            justify-content: flex-end;
+        }
+
+    }
+
+    &_button {
+        padding-right: $gutter *0.1;
+        padding-left: $gutter *1.5;
+        color: $color-black;
+        background-image: url("img/cart.svg");
+        background-repeat: no-repeat;
+        transition: color $trans;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-white;
+        }
+
+        @media(min-width: 800px) {
+            padding-right: $gutter;
+            justify-content: flex-end;
+        }
+
+    }
+}

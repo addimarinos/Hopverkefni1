@@ -9,6 +9,11 @@
         padding-top: $gutter *2;
         padding-bottom: $gutter *2;
         margin: $base-margin;
+        
+        @media (max-width: $max-width - 1) {
+            padding-right: $gutter;
+            padding-left: $gutter;
+          }
     }
 
     &_row {
@@ -21,13 +26,24 @@
 
     &_col {
         width: 100%;
-        padding-left: $gutter /2;
-        padding-right: $gutter /2;
         margin-bottom: $gutter;
 
-        // TODO media minwidth 400px
+        @media(min-width: 400px) {
+            width: 50%;
+            padding-left: $gutter /2;
+            padding-right: $gutter /2;
+        }
+        @media(min-width: 900px) {
+            width: 25%;
+            padding-left: $gutter /2;
+            padding-right: $gutter /2;
+            margin-bottom: 0;
+        }
 
-        // TODO minwidth 900px
+
+        /* TODO media minwidth 400px */
+
+        /* TODO minwidth 900px */
     }
 
     &_h2 {
@@ -46,7 +62,7 @@
         color: $color-white;
         text-decoration: none;
         transition: color $trans;
-        &hover {
+        &:hover {
             color: $color-black;
         }
     }
@@ -56,6 +72,5 @@
         max-width: $max-width;
         font-size: 0.9rem;
         text-align: center;
-
     }
 }
