@@ -1,7 +1,7 @@
 
 # Hópverkefni 1
 
-## Hvernig skal keyra 
+## Hvernig skal keyra vefsíðuna
 Til að keyra verkefnið þarf einfaldlega að downloada eða clone-a þetta repo til að byrja með. Síðan skal opna möppuna í command line og skrifa skipunina:
 ```
 > npm run dev
