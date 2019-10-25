@@ -1,0 +1,95 @@
+@import "config.scss";
+
+.vorur {
+  overflow: hidden;
+  margin: auto;
+  max-width: $max-width;
+
+  &__fyrirsogn{
+    font-family: $font-header;
+    margin-bottom: 20px;
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+    @media (min-width: 799px) {
+      width: 33%;
+      &:nth-child(even) {
+        width: 66%;
+      }
+    }
+
+    &__titill {
+      font-family: $font-header;
+      margin-bottom: 15px;
+    }
+    &__lising {
+      margin-bottom: 20px;
+    }
+    &__verd {
+      font-family: $font-header;
+      margin-bottom: 20px;
+    }
+
+    &__magn {
+      display: flex;
+      justify-self: flex-end;
+
+      &__fjoldi {
+        display: flex;
+        flex-direction: column;
+
+        &__label{
+          font-family: $font-text;
+          font-size: 16px;
+        }
+
+        &__input {
+          border: 1px solid $color-black;
+          border-radius: 5px;
+          font-size: 16px;
+          padding: 10px 5px;
+          width: 100px;
+        }
+      }
+
+      &__takkar {
+        display: flex;
+        align-items: flex-end;
+
+        &__korfutakkar {
+          font-family: $font-text;
+          font-size: 16px;
+          border-radius: 5px;
+          border: 1px solid $color-black;
+          padding: 10px 10px 10px 50px;
+          margin-left: 5px;
+          cursor: pointer;
+          background-image: url("img/cart.svg");
+          background-position-y: 5px;
+          background-position-x: 5px;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background-color: $color-blue;
+            border: 0px;
+          }
+        }
+      }
+    }
+  }
+}
