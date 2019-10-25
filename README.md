@@ -9,7 +9,7 @@ Til að keyra verkefnið þarf einfaldlega að downloada eða clone-a þetta rep
 Einnig er hægt að fara á eftirfarandi slóð til að sjá [Prílihús vefsíðuna](Slóð á heimasvæði) án grids
 
 ## Uppsetning verkefnis
-* [pages](pages/) mappan inniheldur .html skrár fyrir síðurnar: Starfsfólk, Vörur, Karfa og Námskeið. Texti þessara html skrá má sjá í möppunni [efni](efni/)
+* [pages](pages/) mappan inniheldur .html skrár fyrir síðurnar: Starfsfólk, Vörur, Karfa og Námskeið. Texti þessara .html skráa má sjá í möppunni [efni](efni/)
 * [scss](scss/) mappan inniheldur allar scss skrár fyrir vefsíðuna þar sem fylgt er eftir BEM skjölun. Reynt var að staðla mest svo hægt væri að nýta sömu stillingar fyrir allar síður en þar sem verkefni var skipt niður í hlutverk má sjá breytilega notkun á því. 
 * [img](img/) mappan inniheldur allar myndir sem má sjá á vefsíðunni
 * `grid.css` setur upp dálka svo hægt var að fylgja fyrirmynd
