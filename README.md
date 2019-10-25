@@ -22,9 +22,11 @@ Lýsingar á öðrum skjölum má sjá í verkefnalýsingu hér að neðan.
 Arnar Marinósson 
 * Netfang: arm24@hi.is
 * Github notendanafn: `addimarinos`
+
 Jökull Jóhannsson 
 * Netfang: joh38@hi.is
 * Github notendanafn: `joh38`
+
 Rögnvaldur Bjarnason 
 * Netfang: rob13@hi.is
 * Github notendanafn: `rob13rox`
