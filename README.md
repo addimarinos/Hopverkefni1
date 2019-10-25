@@ -15,6 +15,7 @@ Einnig er hægt að fara á eftirfarandi slóð til að sjá [Prílihús vefsí�
 * `grid.css` setur upp dálka svo hægt var að fylgja fyrirmynd
 * `index.html` er forsíðan á vefsíðunni. 
 * `styles.scss` inniheldur scss stillingar á forsíðu ásamt tengingu við scss skrár í möppunni [scss](scss/)
+
 Lýsingar á öðrum skjölum má sjá í verkefnalýsingu hér að neðan. 
  
 
