@@ -11,10 +11,10 @@
     margin-left: 10px;
     margin-right: 10px;
 
-    @media(min-width: 1200px){
+    @media (min-width: 1200px) {
       margin-left: -10px;
-    margin-right: -10px;
-      }
+      margin-right: -10px;
+    }
   }
 
   &__col {
@@ -22,31 +22,45 @@
     padding-left: 10px;
     width: 100%;
     height: 700px;
-    
+
     margin-bottom: 20px;
 
-
-    @media(min-width: 501px){
-     width: 50%;
-     height:700px;
-     }
-
-          
-     @media(min-width: 900px){
+    @media (min-width: 501px) {
       width: 50%;
-      height:720px;
-      }
+      height: 390px;
+    }
 
-     @media(min-width: 1000px){
-      width: 50%;
-      height:800px;
-      }
+    @media (min-width: 551px) {
+      height: 420px;
+    }
 
-     @media(min-width: 1100px){
-      width: 50%;
-      height:900px;
-      }
-    
+    @media (min-width: 601px) {
+      height: 490px;
+    }
+
+    @media (min-width: 701px) {
+      height: 550px;
+    }
+
+    @media (min-width: 801px) {
+      height: 620px;
+    }
+
+    @media (min-width: 901px) {
+      height: 690px;
+    }
+
+    @media (min-width: 1001px) {
+      height: 760px;
+    }
+
+    @media (min-width: 1101px) {
+      height: 830px;
+    }
+
+    @media (min-width: 1151px) {
+      height: 900px;
+    }
   }
 
   &__container {
@@ -76,15 +90,13 @@
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
-        
-        
-        
       }
 
       &__back {
         position: absolute;
         display: flex;
         align-items: center;
+        align-content: center;
         justify-content: center;
         flex-direction: column;
         padding: 10%;
@@ -92,6 +104,8 @@
         height: 100%;
         backface-visibility: hidden;
         transform: rotateY(180deg);
+
+        
       }
     }
   }
