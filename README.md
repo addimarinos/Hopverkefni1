@@ -25,8 +25,8 @@ Arnar Marinósson
 * Github notendanafn: `addimarinos`
 
 Jökull Jóhannsson 
-* Netfang: joh38@hi.is
-* Github notendanafn: `joh38`
+* Netfang: joj38@hi.is
+* Github notendanafn: `joj38`
 
 Rögnvaldur Bjarnason 
 * Netfang: rob13@hi.is
