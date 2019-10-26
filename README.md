@@ -6,7 +6,7 @@ Til að keyra verkefnið þarf einfaldlega að downloada eða clone-a þetta rep
 ```
 > npm run dev
 ```
-Einnig er hægt að fara á eftirfarandi slóð til að sjá [Prílihús vefsíðuna](https://notendur.hi.is/joj38/vefforritun/Hopverkefni1/) án grids
+Einnig er hægt að fara á eftirfarandi slóð til að sjá [Prílihús vefsíðuna](https://notendur.hi.is/arm24/vefforritun/hopverkefni1/) án grids
 
 ## Uppsetning verkefnis
 * [pages](pages/) mappan inniheldur .html skrár fyrir síðurnar: Starfsfólk, Vörur, Karfa og Námskeið. Texti þessara .html skráa má sjá í möppunni [efni](efni/)
